@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: "pythonapiservice"
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      SMTP_SERVER: "smtp.hostinger.com"
+      SMTP_PORT: 465
+      SMTP_USERNAME: "admin@vlads.top"
+      SMTP_PASSWORD: "isecretlylove50Cent"
