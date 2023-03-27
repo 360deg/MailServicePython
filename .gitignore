@@ -20,3 +20,6 @@ files/
 
 # Ignore .env file
 .env
+
+# Docker folders
+__pycache__/
