@@ -88,6 +88,7 @@ def get_all_logs():
 
     return jsonify({'html': logs}), 200
 
+
 # Helper function to write log messages to a file
 def log_request(email, attachment, result=None):
     log_file_name = os.path.join('logs', datetime.datetime.now().strftime('%Y-%m-%d') + '-log').replace('\\', '/')
