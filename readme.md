@@ -17,7 +17,7 @@ SMTP_PASSWORD=password
 
 ## Request examples
 
-CURS could be found in **`app.py`** file
+CURLs could be found in **`app.py`** file
 
 ## Very important
 
